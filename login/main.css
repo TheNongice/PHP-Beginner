@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr&display=swap');
+body{
+  font-family: 'Mitr', sans-serif;
+}
+.a{
+  text-align: center;
+}
+.cen{
+  margin-top: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
