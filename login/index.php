@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Pages!</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/7b30317d32.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
+    <!--<script src="https://kit.fontawesome.com/**YOUR_PROJECT_ID**.js" crossorigin="anonymous"></script> -->
     <!--SweetAlert2-->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </head>
 <body>
   <?php include_once('conn.php'); ?>  
- <div class='container-sm' style='margin-top: 2rem;'>
+  <div class='container-sm' style='margin-top: 2rem;'>
   	<h1 class="a" style="margin-top: 2rem;"><i class="fas fa-user-shield"></i> Member Zones!</h1>
   	<div class='card cen'>
 	  <div class='card-body'>

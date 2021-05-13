@@ -1,11 +1,11 @@
 <?php
 error_reporting(0); // Disable debug output
-$host_db = "127.0.0.1";
-$user_db = "root";
-$pass_db = "";
-$db_name = "pccst";
-$conn = mysqli_connect($host_db,$user_db,$pass_db,$db_name);
-if (!$conn){
+$host = "your_host";
+$user = "your_user";
+$pass = "password";
+$db = "your_db_name";
+$conn = mysqli_connect($host,$user,$pass,$db);
+if (!$conn){ // แสดงข้อความเมื่อไม่สามารถเชื่อม SQL ได้เท่านั้น!
     echo "<script>window.onload=function(){
         Swal.fire({
             position: 'top-end',
